@@ -1,24 +1,25 @@
 import { HashRouter as Router, Routes, Route } from 'react-router-dom'
+import Header  from './components/Header';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import Resume from './pages/Resume';
+import About from './pages/About';
+import Projects from './pages/Projects';
 
 function App() {
 
   return (
     <Router>
-    <AppHeader />
+    <Header />
     <main>
       <Routes>
-        <Route path='/' element={<StayIndex scrolledPage={scrolledPage} />} />
-        <Route path='/:stayId' element={<StayDetails />} />
-        <Route path='/:stayId/payment' element={<StayPayment />} />
-        <Route path='/trips' element={<UserTrips />} />
-        <Route path='/dashboard' element={<UserDashboard />}></Route>
-        <Route path='/wishlist' element={<UserWishlist />} />
-        <Route path='/messages' element={<UserMessages />} />
-        <Route path='/edit' element={<StayEdit />} />
-        <Route path='/edit/:stayId' element={<StayEdit />} />
+        <Route path='/' element={<Home />} />
+        <Route path='/resume' element={<Resume />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/projects' element={<Projects />} />
       </Routes>
     </main>
-    <AppFooter />
+    <Footer />
   </Router>
   )
 }
