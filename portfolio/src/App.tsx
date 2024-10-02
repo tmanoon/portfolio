@@ -6,6 +6,8 @@ import Resume from './pages/Resume';
 import About from './pages/About';
 import Projects from './pages/Projects';
 
+import './style/main.css'
+
 function App() {
 
   return (
