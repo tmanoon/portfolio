@@ -1,13 +1,13 @@
 @import './basics/base';
 @import './basics/helpers';
 @import './basics/layout';
+@import './setup/functions';
+@import './setup/mixins';
+@import './setup/typography';
+@import './setup/vars';
 @import './components/footer';
 @import './components/header';
 @import './pages/about';
 @import './pages/home';
 @import './pages/projects';
 @import './pages/resume';
-@import './setup/functions';
-@import './setup/mixins';
-@import './setup/typography';
-@import './setup/vars';
