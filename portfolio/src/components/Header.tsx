@@ -2,21 +2,37 @@ import { Link } from "react-router-dom"
 
 const Header = () => {
     const pagesName: string[] = ['about', 'home', 'projects', 'resume']
+    
     return (
-    <header className="flex">
-        <button className="header-hamburger">
-
-        </button>
-        <ul className="links flex">
-            {pagesName.map(page => {
-                return (
-                <li className="page-link">
-                    <Link to={`/${page}`}>{page}</Link>
-                </li>
-                )
-            })}
-        </ul>
-    </header>
+        <header className="flex">
+            <nav className="expanded-links-nav">
+                <ul className="links grid">
+                    {pagesName.map(page => {
+                        return (
+                            <li className="page-link">
+                                <Link to={`/${page}`}>{page}</Link>
+                            </li>
+                        )
+                    })}
+                </ul>
+            </nav>
+            <button className="header-hamburger">
+                <span className="ham-line"></span>
+                <span className="ham-line"></span>
+                <span className="ham-line"></span>
+            </button>
+            <nav className="header-nav-links">
+                <ul className="links flex">
+                    {pagesName.map(page => {
+                        return (
+                            <li className="page-link">
+                                <Link to={`/${page}`}>{page}</Link>
+                            </li>
+                        )
+                    })}
+                </ul>
+            </nav>
+        </header>
     )
 }
 
