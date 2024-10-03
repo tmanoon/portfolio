@@ -4,7 +4,7 @@ const Header = () => {
     const pagesName: string[] = ['about', 'home', 'projects', 'resume']
 
     return (
-        <header className="flex">
+        <header className="flex space-between">
             <div className="logo">
                 <h1>Shoval.S;</h1>
             </div>
