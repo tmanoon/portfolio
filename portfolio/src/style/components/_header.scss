@@ -1,18 +1,45 @@
 header {
     justify-content: space-between;
+    height: rem(60px);
+    position: relative;
+    background-color: $header-bgc-clr;
+
+    .logo-and-nav {
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+
+        .logo {
+            h1 {
+                font-family: roboto-thin;
+                color: $header-txt-clr;
+            }
+        }
+
+        .header-nav-links {
+            display: none;
+        }
+    }
+
+    .menu-links-nav {
+        background-color: $bgc-content-clr;
+        height: fit-content;
+        padding-block: $xmedium-size;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+
+        .links {
+            grid-template-columns: repeat(auto-fit, minmax(43px, 1fr));
+            justify-items: center;
+            align-content: center;
+            height: 100%;
+            gap: $medium-size;
+
+            li {
+                color: $txt-clr;
+                text-transform: capitalize;
+            }
+        }
+    }
 }
-
-// <header className="flex">
-// <button className="header-hamburger">
-
-// </button>
-// <ul className="links flex">
-//     {pagesName.map(page => {
-//         return (
-//         <li className="page-link">
-//             <Link to={/`${page}`}>{page}</Link>
-//         </li>
-//         )
-//     })}
-// </ul>
-// </header>
