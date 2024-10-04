@@ -1,8 +1,8 @@
 const Footer = () => {
     return (
-        <div>
-            hi
-        </div>
+            <footer className="flex center">
+                <pre>Copyright © <span>Shoval Sabag</span></pre>
+            </footer>
     )
 }
 
