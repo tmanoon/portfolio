@@ -16,7 +16,20 @@ header {
             color: $header-txt-clr;
         }
 
+        .logo h1:hover,
+        .header-nav-links .links li a:hover {
+            color: $white;
+            font-weight: 800;
+        }
+
+        .logo h1,
+        .header-nav-links .links li a {
+            transition: color .25s cubic-bezier(.4, 0, .6, 1);
+        }
+
         .logo {
+            cursor: pointer;
+
             h1 {
                 font-family: SFPro-Ultralight, Roboto-Thin;
                 letter-spacing: $xxs-size;
@@ -33,11 +46,6 @@ header {
             .links {
                 gap: $xmedium-size;
                 text-transform: capitalize;
-
-                li a:hover {
-                    color: $white;
-                    font-weight: 800;
-                }
             }
         }
     }
