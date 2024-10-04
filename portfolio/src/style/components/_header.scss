@@ -4,7 +4,7 @@ header {
     backdrop-filter: blur(10px);
     position: fixed;
     width: 100%;
-    
+
     .logo-and-nav {
         justify-content: center;
         align-items: center;
@@ -27,6 +27,7 @@ header {
 
             .links {
                 gap: $xmedium-size;
+                text-transform: capitalize;
             }
         }
     }
