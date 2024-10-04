@@ -56,6 +56,11 @@ header {
                 color: $txt-clr;
                 text-transform: capitalize;
             }
+
+            li a:hover {
+                color: #000;
+                font-weight: 800;
+            }
         }
     }
 }
