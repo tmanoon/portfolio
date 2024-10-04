@@ -33,6 +33,11 @@ header {
             .links {
                 gap: $xmedium-size;
                 text-transform: capitalize;
+
+                li a:hover {
+                    color: $white;
+                    font-weight: 800;
+                }
             }
         }
     }
