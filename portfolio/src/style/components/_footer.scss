@@ -4,7 +4,8 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
-    
+    z-index: 5;
+
     span {
         font-family: SFPro-Reg, Roboto-Thin, Tahoma;
     }

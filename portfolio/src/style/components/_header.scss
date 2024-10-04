@@ -3,6 +3,7 @@ header {
     background-color: $header-bgc-clr;
     position: fixed;
     width: 100%;
+    z-index: 10;
 
     .logo-and-nav {
         justify-content: center;
