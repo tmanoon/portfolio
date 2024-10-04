@@ -1,7 +1,8 @@
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 
 
 const Header = () => {
+    const navigate = useNavigate()
 
     type Page = {
         pageName: string,
@@ -13,7 +14,7 @@ const Header = () => {
     return (
         <header>
             <div className="logo-and-nav flex">
-                <div className="logo">
+                <div className="logo" onClick={() => navigate('/')}>
                     <h1>Shoval.S<span>;</span></h1>
                 </div>
                 <nav className="header-nav-links">
