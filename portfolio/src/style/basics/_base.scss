@@ -2,12 +2,28 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: SFPro-ultralight, sans-serif;
+    font-family: SFPro-Light, Roboto-Thin, Calibri;
 }
 
 body {
     margin: 0;
     height: 100vh;
+}
+
+main {
+    padding-block-start: 60px;
+}
+
+@media (min-width: 768px) {
+    main {
+        padding-inline: $xmedium-size;
+    }
+}
+
+@media (min-width: 1080px) {
+    main {
+        padding-inline: $xlarge-size;
+    }
 }
 
 a {
