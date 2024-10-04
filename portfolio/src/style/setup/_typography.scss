@@ -1,24 +1,29 @@
 @font-face {
-    font-family: SFPro-bold;
-    src: url('../../assets/fonts/SFProBold.otf');
+    font-family: SFPro-Bold;
+    src: url('/src/assets/fonts/SFProBold.otf');
 }
 
 @font-face {
-    font-family: SFPro-light;
-    src: url('../../assets/fonts/SFProLight.otf');
+    font-family: SFPro-Light;
+    src: url('/src/assets/fonts/SFProLight.otf');
 }
 
 @font-face {
-    font-family: SFPro-medium;
-    src: url('../../assets/fonts/SFProMedium.otf');
+    font-family: SFPro-Medium;
+    src: url('/src/assets/fonts/SFProMedium.otf');
 }
 
 @font-face {
-    font-family: SFPro-reg;
-    src: url('../../assets/fonts/SFProRegular.otf');
+    font-family: SFPro-Reg;
+    src: url('/src/assets/fonts/SFProRegular.otf');
 }
 
 @font-face {
-    font-family: SFPro ultralight;
-    src: url('../../assets/fonts/SFProUltralight.otf');
+    font-family: SFPro-Ultralight;
+    src: url('/src/assets/fonts/SFProUltralight.otf');
+}
+
+@font-face {
+    font-family: Roboto-Thin;
+    src: url('/src/assets/fonts/Roboto-Thin.ttf');
 }
