@@ -1,8 +1,10 @@
 const Home = () => {
     return (
-        <div>
-            hello
-        </div>
+        <section className="home">
+            <div className="txt-and-img">
+                
+            </div>
+        </section>
     )
 }
 
