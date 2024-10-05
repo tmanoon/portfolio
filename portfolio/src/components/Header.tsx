@@ -1,15 +1,11 @@
 import { Link, useNavigate } from "react-router-dom"
 
 
+
 const Header = () => {
     const navigate = useNavigate()
 
-    type Page = {
-        pageName: string,
-        icon: string
-    }
-
-    const pagesName: string[] = ['about', 'home', 'projects', 'resume']
+    const pagesName: string[] = ['home', 'about', 'projects','resume']
 
     return (
         <header>
@@ -21,7 +17,8 @@ const Header = () => {
                     <ul className="links flex">
                         {pagesName.map(page => {
                             return (
-                                <li className="page-link">
+                                <li className="page-link flex center" key={page}>
+
                                     <Link to={`/${page}`}>{page}</Link>
                                 </li>
                             )
@@ -33,7 +30,7 @@ const Header = () => {
                 <ul className="links grid">
                     {pagesName.map(page => {
                         return (
-                            <li className="page-link">
+                            <li className="page-link" key={page}>
                                 <Link to={`/${page}`}>{page}</Link>
                             </li>
                         )
