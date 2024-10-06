@@ -10,18 +10,19 @@ body {
     height: 100vh;
 }
 
-main {
+main section {
     padding-block: rem(60px) rem(51px);
+    padding-inline: $s-size;
 }
 
 @media (min-width: 768px) {
-    main {
+    main section {
         padding-inline: $xmedium-size;
     }
 }
 
 @media (min-width: 1080px) {
-    main {
+    main section {
         padding-inline: $xlarge-size;
     }
 }
