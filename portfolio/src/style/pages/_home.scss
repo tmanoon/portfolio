@@ -3,7 +3,7 @@
     .txt-and-img {
         height: 75vh;
         grid-template-rows: repeat(2, 55%);
-        gap: $large-size;
+        gap: $medium-size;
 
         .txt {
             color: $secondary2-clr;
