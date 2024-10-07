@@ -19,7 +19,7 @@ const Header = () => {
                             return (
                                 <li className="page-link flex center" key={page}>
 
-                                    <Link to={`/${page}`}>{page}</Link>
+                                    <Link to={`${page === 'home' ? '/' : page}`}>{page}</Link>
                                 </li>
                             )
                         })}
