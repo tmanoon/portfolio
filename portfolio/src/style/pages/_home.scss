@@ -45,6 +45,7 @@
         .txt-and-img {
             grid-template-rows: 1fr;
             grid-template-columns: repeat(2, 1fr);
+            gap: $xxlarge-size;
         }
     }
 }
