@@ -2,6 +2,11 @@
     display: grid;
 }
 
+.grid.center {
+    align-items: center;
+    justify-items: center;
+}
+
 .flex {
     display: flex;
 }
@@ -30,4 +35,3 @@
     align-items: center;
     justify-content: center;
 }
-
