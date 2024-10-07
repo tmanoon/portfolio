@@ -9,11 +9,16 @@ body {
     margin: 0;
     height: 100vh;
     background-color: $dark-bgc-clr;
+
+    #root {
+        height: inherit;
+    }
 }
 
 main section {
     padding-block: rem(60px) rem(51px);
     padding-inline: $s-size;
+    height: inherit;
 }
 
 @media (min-width: 768px) {
