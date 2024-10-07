@@ -1,0 +1,38 @@
+.home {
+
+    .txt-and-img {
+        height: 75vh;
+        grid-template-rows: repeat(2, 55%);
+        gap: $large-size;
+
+        .txt {
+            color: $secondary2-clr;
+            gap: $xmedium-size;
+
+            h1 {
+                font-family: SFPro-Reg;
+                font-size: $xxlarge-size;
+                margin-block-start: $large-size;
+            }
+
+            h3 {
+                font-size: $large-size;
+            }
+
+            p {
+                text-align: center;
+                font-size: $xmedium-size;
+                margin-block-start: $s-size;
+                line-height: $large-size;
+                padding-inline: $s-size;
+            }
+        }
+
+        img {
+            object-fit: contain;
+            max-width: 100%;
+            display: block;
+            height: 100%;
+        }
+    }
+}
