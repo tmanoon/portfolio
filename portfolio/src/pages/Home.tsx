@@ -8,7 +8,7 @@ const Home = () => {
                     <p>From pixel to server, <br />
                         driven by a relentless pursuit of excellence in web development</p>
                 </div>
-                <img src='/src/assets/pics/girl-coding.png' />
+                <img src='/src/assets/pics/girl-coding.svg' />
             </div>
         </section>
     )
