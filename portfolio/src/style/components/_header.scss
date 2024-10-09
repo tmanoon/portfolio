@@ -9,7 +9,7 @@ header {
         justify-content: center;
         align-items: center;
         height: 100%;
-        padding-inline: $xmedium-size;
+        padding-inline: $xm-size;
 
         .logo,
         .header-nav-links {
@@ -45,7 +45,7 @@ header {
             display: none;
 
             .links {
-                gap: $xmedium-size;
+                gap: $xm-size;
                 text-transform: capitalize;
             }
         }
@@ -54,7 +54,7 @@ header {
     .menu-links-nav {
         background-color: $bgc-content-clr;
         height: fit-content;
-        padding-block: $xmedium-size;
+        padding-block: $xm-size;
         position: fixed;
         bottom: 0;
         width: 100%;
@@ -64,7 +64,7 @@ header {
             justify-items: center;
             align-content: center;
             height: 100%;
-            gap: $xmedium-size;
+            gap: $xm-size;
 
             li {
                 color: $txt-clr;
@@ -104,11 +104,11 @@ header {
     header {
 
         .logo-and-nav {
-            padding-inline: $xlarge-size;
+            padding-inline: $xl-size;
 
             .header-nav-links {
                 .links {
-                    gap: $xlarge-size;
+                    gap: $xl-size;
                 }
             }
         }

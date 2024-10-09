@@ -23,13 +23,13 @@ main section {
 
 @media (min-width: 768px) {
     main section {
-        padding-inline: $xmedium-size;
+        padding-inline: $xm-size;
     }
 }
 
 @media (min-width: 1080px) {
     main section {
-        padding-inline: $xlarge-size;
+        padding-inline: $xl-size;
     }
 }
 

@@ -21,7 +21,7 @@
 @media (min-width: 768px) {
     .socials {
         display: flex;
-        gap: $xmedium-size;
+        gap: $xm-size;
         position: absolute;
         z-index: 10;
         right: $s-size;
@@ -36,7 +36,7 @@
             }
 
             span {
-                font-size: $large-size;
+                font-size: $l-size;
 
                 color: $secondary-clr;
                 cursor: pointer;

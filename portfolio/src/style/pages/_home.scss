@@ -3,7 +3,7 @@
     .txt-and-img {
         height: 75vh;
         grid-template-rows: repeat(2, 55%);
-        gap: $medium-size;
+        gap: $m-size;
 
         .txt {
             color: $secondary2-clr;
@@ -11,21 +11,21 @@
 
             h1 {
                 font-family: SFPro-Reg;
-                font-size: $xxlarge-size;
+                font-size: $xxl-size;
                 text-align: center;
-                margin-block-start: $large-size;
+                margin-block-start: $l-size;
             }
 
             h3 {
-                font-size: $large-size;
+                font-size: $l-size;
                 text-align: center;
             }
 
             p {
                 text-align: center;
-                font-size: $xmedium-size;
+                font-size: $xm-size;
                 margin-block-start: $s-size;
-                line-height: $large-size;
+                line-height: $l-size;
                 padding-inline: $s-size;
             }
         }
@@ -45,7 +45,7 @@
         .txt-and-img {
             grid-template-rows: 1fr;
             grid-template-columns: repeat(2, 1fr);
-            gap: $xxlarge-size;
+            gap: $xxl-size;
         }
     }
 }
