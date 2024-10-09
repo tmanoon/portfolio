@@ -7,6 +7,7 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 
 import './style/main.css'
+import Socials from './components/Socials';
 
 function App() {
 
@@ -20,7 +21,8 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/projects' element={<Projects />} />
       </Routes>
-    </main>
+    </main>    
+    <Socials />
     <Footer />
   </Router>
   )
