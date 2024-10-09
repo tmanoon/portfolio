@@ -5,7 +5,7 @@ import { Link, useNavigate } from "react-router-dom"
 const Header = () => {
     const navigate = useNavigate()
 
-    const pagesName: string[] = ['home', 'about', 'projects','resume']
+    const pagesName: string[] = ['home', 'about', 'projects','resume', 'contact']
 
     return (
         <header>
