@@ -1,6 +1,10 @@
 const Socials = () => {
     return (
-        <div className="socials">socials</div>
+        <div className="socials flex column">
+            <span className="linkedin"></span>
+            <span className="x"></span>
+            <span className="github"></span>
+        </div>
     )
 }
 
