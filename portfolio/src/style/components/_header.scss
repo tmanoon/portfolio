@@ -17,13 +17,14 @@ header {
         }
 
         .logo h1:hover,
-        .header-nav-links .links li a:hover {
+        .header-nav-links li a:hover,
+        .header-nav-links li a:focus {
             color: $white;
             font-weight: 800;
         }
 
         .logo h1,
-        .header-nav-links .links li a {
+        .header-nav-links li a {
             transition: color .25s cubic-bezier(.4, 0, .6, 1);
         }
 
