@@ -31,7 +31,7 @@ const Header = () => {
                     {pagesName.map(page => {
                         return (
                             <li className="page-link" key={page}>
-                                <Link to={`/${page}`}>{page}</Link>
+                                <Link to={`${page === 'home' ? '/' : page}`}>{page}</Link>
                             </li>
                         )
                     })}
