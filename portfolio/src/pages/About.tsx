@@ -1,10 +1,16 @@
 const About = () => {
 
-    const stackLangs = ['html', 'css', 'javascript']
-    const stackLibs = ['scss', 'typescript', 'react', 'redux', 'vue', 'vuex', 'angular',
-     'rxss', 'nodejs', 'express', 'babel', 'socketIO']
-    const stackDatabases = ['mongo', 'sql']
-    const stackTechs = ['git', 'vscode', 'jira', 'trello', 'monday', 'restfulAPI']
+    type Stack = {
+        [key: string]: string[];
+    }
+
+    const stack: Stack = {
+        lngs: ['html', 'css', 'javascript'],
+        libs: ['scss', 'typescript', 'react', 'redux', 'vue', 'angular',
+            'rxjs', 'nodejs', 'express', 'babel', 'socketIO'],
+        databases: ['mongo', 'sql'],
+        techsAndTools: ['git', 'vscode', 'jira', 'trello', 'monday']
+    }
 
     return (
         <section className="about">
@@ -23,7 +29,17 @@ const About = () => {
                         Let’s connect to develop innovative solutions that drive success.</p>
                 </div>
                 <div className="stack">
-                
+                    {
+                        Object.keys(stack).map(propName => (
+                            <ul className={propName} key={propName}>
+                                {stack[propName].map(techName => (
+                                    <li className={techName} key={techName}>
+                                        <img src={`/src/assets/pics/stack-icons/${techName}.svg`} alt={`${techName} icon`} title={`${techName} icon`} />
+                                    </li>
+                                ))}
+                            </ul>
+                        ))
+                    }
                 </div>
             </div>
         </section>
