@@ -15,6 +15,11 @@ body {
     }
 }
 
+h1,
+p {
+    color: $secondary2-clr;
+}
+
 main section {
     padding-block: rem(60px) rem(51px);
     padding-inline: $s-size;
