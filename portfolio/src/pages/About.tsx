@@ -29,17 +29,19 @@ const About = () => {
                         Let’s connect to develop innovative solutions that drive success.</p>
                 </div>
                 <div className="stack">
-                    {
-                        Object.keys(stack).map(propName => (
-                            <ul className={propName + ' grid'} key={propName}>
-                                {stack[propName].map(techName => (
-                                    <li className={techName} key={techName}>
-                                        <img src={`/src/assets/pics/stack-icons/${techName}.svg`} alt={`${techName} icon`} title={`${techName} icon`} />
-                                    </li>
-                                ))}
-                            </ul>
-                        ))
-                    }
+                    <ul className="tech-icons grid">
+                        {
+                            Object.keys(stack).map(propName => (
+                                stack[propName].map(techName => {
+                                    return (
+                                        <li className={techName} key={techName}>
+                                            <img src={`/src/assets/pics/stack-icons/${techName}.svg`} alt={`${techName} icon`} title={`${techName} icon`} />
+                                        </li>
+                                    )
+                                })
+                            ))
+                        }
+                    </ul>
                 </div>
             </div>
         </section>
