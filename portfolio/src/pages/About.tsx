@@ -9,7 +9,7 @@ const About = () => {
         libs: ['scss', 'typescript', 'react', 'redux', 'vue', 'angular',
             'rxjs', 'nodejs', 'express', 'babel', 'socketIO'],
         databases: ['mongo', 'sql'],
-        techsAndTools: ['git', 'vscode', 'jira', 'trello', 'monday']
+        techsAndTools: ['git', 'vscode', 'jira', 'trello', 'monday', 'slack']
     }
 
     return (
