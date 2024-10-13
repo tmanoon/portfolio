@@ -29,7 +29,7 @@ const About = () => {
                         Let’s connect to develop innovative solutions that drive success.</p>
                 </div>
                 <div className="stack">
-                    <ul className="tech-icons grid">
+                    <ul className="tech-icons grid space-between">
                         {
                             Object.keys(stack).map(propName => (
                                 stack[propName].map(techName => {
