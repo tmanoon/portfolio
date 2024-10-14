@@ -3,17 +3,15 @@
     .txt-and-img {
         height: 75vh;
         grid-template-rows: repeat(2, 55%);
-        gap: $m-size;
+        justify-items: center;
+        gap: $s-size;
 
         .txt {
             color: $secondary2-clr;
             gap: $s-size;
 
             h1 {
-                font-family: SFPro-Reg;
-                font-size: $xxl-size;
-                text-align: center;
-                margin-block-start: $l-size;
+                @include pageHeader;
             }
 
             h3 {
@@ -22,10 +20,7 @@
             }
 
             p {
-                text-align: center;
-                font-size: $xm-size;
-                margin-block-start: $s-size;
-                line-height: $l-size;
+                @include contentPara;
                 padding-inline: $s-size;
             }
         }
@@ -35,6 +30,24 @@
             max-width: 100%;
             display: block;
             height: 100%;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .home {
+
+        .txt-and-img {
+
+            .txt {
+                h1 {
+                    @include desktopPageHeader;
+                }
+    
+                p {
+                    @include desktopContentPara;
+                }
+            }
         }
     }
 }

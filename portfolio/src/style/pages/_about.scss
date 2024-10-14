@@ -5,17 +5,11 @@
         .txt {
 
             h1 {
-                font-family: SFPro-Reg;
-                font-size: $xxl-size;
-                text-align: center;
-                margin-block-start: $l-size;
+                @include pageHeader;
             }
 
             p {
-                text-align: center;
-                font-size: $xm-size;
-                margin-block-start: $s-size;
-                line-height: $l-size;
+                @include contentPara;
             }
         }
     }
@@ -45,6 +39,20 @@
 
 @media (min-width: 768px) {
     .about {
+
+        .txt-and-stack {
+
+            .txt {
+    
+                h1 {
+                    @include desktopPageHeader;
+                }
+    
+                p {
+                    @include desktopContentPara;
+                }
+            }
+        }
 
         .stack {
 
