@@ -54,3 +54,17 @@
         }
     }
 }
+
+@media (min-width: 1080px) {
+    .about {
+
+        .stack {
+
+            .tech-icons {
+                justify-content: space-evenly;
+                gap: $l-size;
+                grid-template-columns: repeat(4, minmax(65px, 140px));
+            }
+        }
+    }
+}
