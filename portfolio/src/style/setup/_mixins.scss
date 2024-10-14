@@ -7,7 +7,7 @@
 
 @mixin contentPara {
     text-align: center;
-    font-size: $m-size;
+    font-size: $xm-size;
     margin-block-start: $s-size;
     line-height: $l-size;
 }
@@ -17,5 +17,5 @@
 }
 
 @mixin desktopContentPara {
-    font-size: $xm-size;
+    font-size: $xxm-size;
 }
