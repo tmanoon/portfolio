@@ -66,6 +66,17 @@
 @media (min-width: 1080px) {
     .about {
 
+        .txt-and-stack {
+
+            .txt {
+                padding-inline: 12rem;
+                
+                p {
+                    margin-block: $m-size $l-size;
+                }
+            }
+        }
+
         .stack {
 
             .tech-icons {
