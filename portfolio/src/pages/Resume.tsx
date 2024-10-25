@@ -9,7 +9,7 @@ const Resume = () => {
     }
 
     return (
-        <section className="resume flex column">
+        <section className="resume flex column center">
             <div className="lang-btns">
                 <button className="heb-btn" onClick={() => changeLang('heb')}>עברית</button>
                 <button className="eng-btn" onClick={() => changeLang('eng')}>English</button>
