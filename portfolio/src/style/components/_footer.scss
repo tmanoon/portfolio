@@ -11,3 +11,9 @@ footer {
         font-family: SFPro-Reg, Roboto-Thin, Tahoma;
     }
 }
+
+@media (min-width: 768px) {
+    footer {
+        background-color: $hf-bgc-clr;
+    }
+}
