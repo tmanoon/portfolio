@@ -1,6 +1,6 @@
 header {
     height: rem(60px);
-    background-color: $header-bgc-clr-mobile;
+    background-color: $hf-bgc-clr-mobile;
     position: fixed;
     width: 100%;
     z-index: 10;
@@ -13,7 +13,7 @@ header {
 
         .logo h1,
         .header-nav-links {
-            color: $header-txt-clr;
+            color: $hf-txt-clr;
         }
 
         .logo h1:hover,
@@ -83,7 +83,7 @@ header {
 
     header {
     backdrop-filter: blur(10px);
-    background-color: $header-bgc-clr;
+    background-color: $hf-bgc-clr;
 
         .logo-and-nav {
             justify-content: space-between;
