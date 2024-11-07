@@ -1,3 +1,29 @@
 .resume {
-    gap: 1rem;
+
+    &,
+    .lang-btns {
+        gap: $xxm-size;
+    }
+
+    button {
+        @include btn;
+    }
+
+    img {
+        object-fit: contain;
+        width: 100%;
+        max-width: 700px;
+    }
 }
+
+// <section className="resume flex column center">
+// <div className="lang-btns flex">
+//     <button className="heb-btn" onClick={() => changeLang('heb')}>עברית</button>
+//     <button className="eng-btn" onClick={() => changeLang('eng')}>English</button>
+// </div>
+// <img src={`/src/assets/pics/cv-${cvLang.lang}.png`}
+//     alt={cvLang.lang === 'hebrew' ? 'קורות החיים של שובל סבג' : `Shoval Sabag's resume`}
+//     title={cvLang.lang === 'hebrew' ? 'קורות החיים של שובל סבג' : `Shoval Sabag's resume`}
+// />
+// <button className="download-btn">{cvLang.btnTxt}</button>
+// </section>
