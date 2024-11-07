@@ -10,7 +10,7 @@ const Resume = () => {
 
     return (
         <section className="resume flex column center">
-            <div className="lang-btns">
+            <div className="lang-btns flex">
                 <button className="heb-btn" onClick={() => changeLang('heb')}>עברית</button>
                 <button className="eng-btn" onClick={() => changeLang('eng')}>English</button>
             </div>
