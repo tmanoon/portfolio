@@ -1,10 +1,11 @@
 footer {
-    background-color: $bgc-content-clr;
+    background-color: $hf-bgc-clr-mobile;
     padding: 1rem;
     position: fixed;
     width: 100%;
     bottom: 0;
     z-index: 5;
+    color: $hf-txt-clr;
 
     span {
         font-family: SFPro-Reg, Roboto-Thin, Tahoma;
