@@ -18,3 +18,17 @@
 @mixin desktopContentPara {
     font-size: $xxm-size;
 }
+
+@mixin btn {
+    background-color: $primary-clr;
+    border-radius: $xxs-size;
+    display: inline-block;
+    padding: $xs-size $l-size;
+    text-align: center;
+    transition: all 200ms;
+
+    &:hover {
+        background-color: $bgc-content-clr;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, $secondary-clr 0px 0px 0px 2px;
+    }
+}
