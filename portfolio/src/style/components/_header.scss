@@ -67,13 +67,15 @@ header {
             gap: $xm-size;
 
             li {
-                color: $txt-clr;
+                color: $hf-txt-clr;
                 text-transform: capitalize;
+                transition: transform 0.30s ease;
             }
 
-            li a:hover {
-                color: #000;
+            li:hover {
+                color: $white;
                 font-weight: 800;
+                transform: scale(1.1);
             }
         }
     }
@@ -82,8 +84,8 @@ header {
 @media (min-width: 768px) {
 
     header {
-    backdrop-filter: blur(10px);
-    background-color: $hf-bgc-clr;
+        backdrop-filter: blur(10px);
+        background-color: $hf-bgc-clr;
 
         .logo-and-nav {
             justify-content: space-between;
