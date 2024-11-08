@@ -21,6 +21,7 @@
 
 @mixin btn {
     background-color: $primary-clr;
+    color: $hf-txt-clr;
     border-radius: $xxs-size;
     display: inline-block;
     padding: $xs-size $l-size;
