@@ -11,12 +11,18 @@ header {
         height: 100%;
         padding-inline: $xm-size;
 
-        .logo h1,
         .header-nav-links {
             color: $hf-txt-clr;
         }
 
-        .logo h1:hover,
+        .logo h1 {
+            color: $primary-clr;
+        }
+
+        .logo h1:hover {
+            color: $primary-clr1;
+        }
+
         .header-nav-links li a:hover,
         .header-nav-links li a:focus {
             color: $white;
