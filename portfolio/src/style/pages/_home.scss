@@ -1,7 +1,7 @@
 .home {
 
     .txt-and-img {
-        height: 75vh;
+        height: 70vh;
         grid-template-rows: repeat(2, 55%);
         justify-items: center;
         gap: $s-size;
@@ -42,6 +42,10 @@
             .txt {
                 h1 {
                     @include desktopPageHeader;
+                }
+
+                h3 {
+                    font-size: 2.5rem;
                 }
     
                 p {
