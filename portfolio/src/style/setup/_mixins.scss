@@ -1,12 +1,12 @@
 @mixin pageHeader {
     font-family: SFPro-Reg;
-    font-size: $xl-size;
+    font-size: $xxl-size;
     text-align: center;
 }
 
 @mixin contentPara {
     text-align: center;
-    font-size: $xm-size;
+    font-size: 1.75rem;
     margin-block-start: $s-size;
     line-height: 2.5rem;
 }
@@ -16,7 +16,7 @@
 }
 
 @mixin desktopContentPara {
-    font-size: $xxm-size;
+    font-size: $l-size;
     line-height: $xl-size;
 }
 
