@@ -7,7 +7,7 @@ const Contact = () => {
                 <input id="fullname" placeholder="Full Name" />
                 <label htmlFor="fullname">Email</label>
                 <input id="email" placeholder="Email" />
-                <label htmlFor="msg"></label>
+                <label htmlFor="msg">Your Message</label>
                 <textarea name="msg" id="msg"></textarea>
                 <button type="button">Submit</button>
             </form>
