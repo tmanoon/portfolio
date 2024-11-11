@@ -8,7 +8,7 @@
     text-align: center;
     font-size: $xm-size;
     margin-block-start: $s-size;
-    line-height: $l-size;
+    line-height: 2.5rem;
 }
 
 @mixin desktopPageHeader {
@@ -17,6 +17,7 @@
 
 @mixin desktopContentPara {
     font-size: $xxm-size;
+    line-height: $xl-size;
 }
 
 @mixin btn {
