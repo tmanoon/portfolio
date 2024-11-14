@@ -2,7 +2,7 @@ const Contact = () => {
     return (
         <section className="contact">
             <h1>Contact</h1>
-            <form className="flex column">
+            <form className="flex column align-center">
                 <label htmlFor="fullname">Full Name</label>
                 <input id="fullname" placeholder="Full Name" />
                 <label htmlFor="fullname">Email</label>
