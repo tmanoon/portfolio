@@ -30,9 +30,11 @@
     padding: $s-size $l-size;
     text-align: center;
     transition: all 200ms;
+    transition: transform 1.2s all;
 
     &:hover {
         background-color: $primary-clr;
+        transform: scale(1.2);
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, $secondary-clr2 0px 0px 0px 2px;
     }
 }
