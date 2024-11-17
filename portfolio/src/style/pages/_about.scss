@@ -4,10 +4,6 @@
 
         .txt {
 
-            h1 {
-                @include pageHeader;
-            }
-
             p {
                 @include contentPara;
                 color: $txt-clr;
@@ -44,11 +40,7 @@
         .txt-and-stack {
 
             .txt {
-    
-                h1 {
-                    @include desktopPageHeader;
-                }
-    
+                
                 p {
                     @include desktopContentPara;
                 }
