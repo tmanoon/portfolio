@@ -13,17 +13,6 @@
         object-fit: contain;
         width: 100%;
         max-width: 700px;
+        border: 0.5px solid $primary-clr1;
     }
 }
-
-// <section className="resume flex column center">
-// <div className="lang-btns flex">
-//     <button className="heb-btn" onClick={() => changeLang('heb')}>עברית</button>
-//     <button className="eng-btn" onClick={() => changeLang('eng')}>English</button>
-// </div>
-// <img src={`/src/assets/pics/cv-${cvLang.lang}.png`}
-//     alt={cvLang.lang === 'hebrew' ? 'קורות החיים של שובל סבג' : `Shoval Sabag's resume`}
-//     title={cvLang.lang === 'hebrew' ? 'קורות החיים של שובל סבג' : `Shoval Sabag's resume`}
-// />
-// <button className="download-btn">{cvLang.btnTxt}</button>
-// </section>
