@@ -16,7 +16,9 @@ header {
         }
 
         .logo h1 {
-            color: $primary-clr;
+            font-size: 2em;
+            margin-block-end: 0;
+
         }
 
         .logo h1:hover {
