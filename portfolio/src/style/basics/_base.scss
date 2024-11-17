@@ -16,9 +16,9 @@ body {
 }
 
 h1 {
-    color: $primary-clr;
-    margin-block-end: $l-size;
+    @include pageHeader;
 }
+
 
 main section {
     padding-block: rem(95px);
@@ -29,6 +29,10 @@ main section {
 @media (min-width: 768px) {
     main section {
         padding-inline: $xm-size;
+    }
+
+    h1 {
+        @include desktopPageHeader;
     }
 }
 
