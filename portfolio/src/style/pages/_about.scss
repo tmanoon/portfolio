@@ -10,6 +10,7 @@
 
             p {
                 @include contentPara;
+                color: $txt-clr;
             }
         }
     }
