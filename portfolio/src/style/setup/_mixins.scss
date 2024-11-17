@@ -2,6 +2,8 @@
     font-family: SFPro-Reg;
     font-size: $xxl-size;
     text-align: center;
+    color: $primary-clr;
+    margin-block-end: $l-size;
 }
 
 @mixin contentPara {
