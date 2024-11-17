@@ -5,7 +5,7 @@
     }
 
     form {
-        gap: $s-size;
+        gap: $m-size;
         margin-block-start: $xxl-size;
 
         label {
@@ -17,6 +17,8 @@
         input,
         textarea {
             padding: $xs-size;
+            width: 70vw;
+            max-width: rem(594px);
         }
 
         input {
