@@ -8,9 +8,9 @@
 
 @mixin contentPara {
     text-align: center;
-    font-size: 1.75rem;
-    margin-block-start: $s-size;
+    font-size: $xm-size;
     line-height: 2.5rem;
+    color: $txt-clr;
 }
 
 @mixin desktopPageHeader {
@@ -18,7 +18,7 @@
 }
 
 @mixin desktopContentPara {
-    font-size: $l-size;
+    font-size: $xxm-size;
     line-height: $xl-size;
 }
 
