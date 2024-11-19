@@ -12,6 +12,7 @@
 
             h1 {
                 @include pageHeader;
+                margin-block-end: 0;
             }
 
             h3 {
