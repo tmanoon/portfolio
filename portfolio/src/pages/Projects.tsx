@@ -2,27 +2,23 @@ const Projects = () => {
 
     type Project = {
         name: string,
-        imgUrl: string,
         desc: string,
         link: string
     }
 
     const projects: Project[] = [
         {
-            name: 'Staybnb',
-            imgUrl: '',
+            name: 'staybnb',
             desc: '',
             link: 'https://staybnb-1.onrender.com/#/?txt=&entryDate=&exitDate=&label=&placeType=any&pagination=30&adults=0&children=0&infants=0&pets=0&min=0&max=2000&bedrooms=any&beds=any&bathrooms=any&instant=false&selfCheckIn=false&allowsPets=false'  
         },
         {
-            name: 'Manook',
-            imgUrl: '',
+            name: 'manook',
             desc: '',
             link: 'https://tmanoon.github.io/manook/'  
         },
         {
-            name: 'Form Generator',
-            imgUrl: '',
+            name: 'form generator',
             desc: '',
             link: 'https://tmanoon.github.io/form-generator/'  
         },
