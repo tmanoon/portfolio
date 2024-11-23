@@ -33,7 +33,7 @@ const Projects = () => {
                     return (
                         <li className="project">
                             <h3>{project.name}</h3>
-                            <img src={project.imgUrl} alt={project.name} title={project.name} />
+                            <img src={`/src/assets/pics/projects/${project.name}.png`} alt={project.name} title={project.name} />
                             <p>{project.desc}</p>
                             <a href={project.link}>Move to project</a>
                             </li>
