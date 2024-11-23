@@ -1,0 +1,13 @@
+.projects {
+
+    ul {
+        max-width: 70vw;
+    }
+
+    li {
+        img {
+            object-fit: contain;
+            max-width: 100%;
+        }
+    }
+}
