@@ -37,6 +37,11 @@ const Projects = () => {
             desc: '',
             link: 'https://github.com/tmanoon/mister-bitcoin-vue'
         },
+        {
+            name: 'schedulr',
+            desc: '',
+            link: 'https://github.com/JennyLottner/schedulr'
+        },
     ]
 
     return (
