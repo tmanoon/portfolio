@@ -32,6 +32,11 @@ const Projects = () => {
             desc: '',
             link: 'https://tmanoon.github.io/AppSus/'
         },
+        {
+            name: 'mister-bitcoin',
+            desc: '',
+            link: 'https://github.com/tmanoon/mister-bitcoin-vue'
+        },
     ]
 
     return (
