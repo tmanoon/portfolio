@@ -5,6 +5,11 @@
     }
 
     li {
+
+        h3 {
+            text-transform: capitalize;
+        }
+
         img {
             object-fit: contain;
             max-width: 100%;
