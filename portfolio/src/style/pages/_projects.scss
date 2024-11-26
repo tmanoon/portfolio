@@ -1,16 +1,19 @@
 .projects {
 
     ul {
-        max-width: 70vw;
         gap: $xl-size;
+        justify-content: center;
     }
 
     li {
 
         gap: $xm-size;
+        max-width: 70vw;
 
         h3 {
             text-transform: capitalize;
+            font-size: $xm-size;
+            color: $txt-clr;
         }
 
         img {
