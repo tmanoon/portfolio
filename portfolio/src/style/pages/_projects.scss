@@ -2,9 +2,12 @@
 
     ul {
         max-width: 70vw;
+        gap: $xl-size;
     }
 
     li {
+
+        gap: $xm-size;
 
         h3 {
             text-transform: capitalize;
@@ -16,3 +19,22 @@
         }
     }
 }
+
+// <section className="projects">
+// <h1>Projects</h1>
+// <ul className="container grid">
+//     {
+//         projects.map(project => {
+//             return (
+//                 <li className="project">
+//                     <h3>{(project.name).replaceAll('-', ' ')}</h3>
+//                     <img src={`/src/assets/pics/projects/${project.name}.png`} alt={project.name} title={project.name} />
+//                     <p>{project.desc}</p>
+//                     <a href={project.link}>Move to project</a>
+//                 </li>
+//             )
+//         })
+//     }
+// </ul>
+
+// </section>
