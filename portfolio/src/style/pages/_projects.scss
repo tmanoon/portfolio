@@ -3,17 +3,17 @@
     ul {
         gap: $xl-size;
         justify-content: center;
+        margin-block-start: rem(65px);
     }
 
     li {
-
         gap: $xm-size;
         max-width: 70vw;
 
         h3 {
             text-transform: capitalize;
-            font-size: $xm-size;
-            color: $txt-clr;
+            font-size: $xxm-size;
+            color: $secondary-clr;
         }
 
         img {
@@ -21,11 +21,34 @@
             max-width: 100%;
         }
 
+        a, p {
+            color: $txt-clr;
+        }
+
         a:hover {
             font-weight: bold;
         }
     }
 }
+
+@media (min-width: 768px) {
+    .projects {
+
+        ul {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+
+@media (min-width: 1080px) {
+    .projects {
+
+        ul {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+}
+
 
 // <section className="projects">
 // <h1>Projects</h1>
