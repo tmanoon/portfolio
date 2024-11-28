@@ -8,7 +8,7 @@
 
         .txt {
             color: $primary-clr2;
-            gap: $s-size;
+            gap: $xm-size;
 
             h1 {
                 @include pageHeader;
