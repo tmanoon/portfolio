@@ -18,7 +18,7 @@ const Resume = () => {
                 <button className="heb-btn" onClick={() => changeLang('heb')}>עברית</button>
                 <button className="eng-btn" onClick={() => changeLang('eng')}>English</button>
             </div>
-            <img src={`/src/assets/pics/cv-${cvLang.lang}.png`}
+            <img src={`/src/assets/pics/cv/cv-${cvLang.lang}.png`}
                 alt={cvLang.lang === 'hebrew' ? 'קורות החיים של שובל סבג' : `Shoval Sabag's resume`}
                 title={cvLang.lang === 'hebrew' ? 'קורות החיים של שובל סבג' : `Shoval Sabag's resume`}
             />
