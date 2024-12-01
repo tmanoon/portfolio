@@ -2,17 +2,18 @@
 
     .txt-and-img {
         height: 70vh;
-        grid-template-rows: repeat(2, 55%);
+        grid-template-rows: max-content 1fr;
         justify-items: center;
         gap: $s-size;
 
         .txt {
             color: $primary-clr2;
-            gap: $xm-size;
+            gap: $m-size;
 
             h1 {
                 @include pageHeader;
                 margin-block-end: 0;
+                font-size: 3.5rem;
             }
 
             h3 {
@@ -48,7 +49,7 @@
                 h3 {
                     font-size: 2.5rem;
                 }
-    
+
                 p {
                     @include desktopContentPara;
                 }
@@ -64,6 +65,10 @@
             grid-template-rows: 1fr;
             grid-template-columns: repeat(2, 1fr);
             gap: $xxl-size;
+
+            .txt {
+                align-content: center;
+            }
         }
     }
 }
