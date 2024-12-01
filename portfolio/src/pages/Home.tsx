@@ -1,7 +1,7 @@
 const Home = () => {
     return (
         <section className="home">
-            <div className="txt-and-img grid center">
+            <div className="txt-and-img grid">
                 <div className="txt grid center">
                     <h1>Shoval Sabag</h1>
                     <h3>Full Stack Developer</h3>
