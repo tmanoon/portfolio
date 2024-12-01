@@ -4,7 +4,7 @@
         height: 70vh;
         grid-template-rows: max-content 1fr;
         justify-items: center;
-        gap: $s-size;
+        gap: $xxm-size;
 
         .txt {
             color: $primary-clr2;
@@ -30,8 +30,12 @@
         img {
             object-fit: contain;
             max-width: 100%;
-            display: block;
             height: 100%;
+            display: block;
+            max-height: 400px;
+            border-radius: 50%;
+            border: 8px solid $primary-clr;
+            cursor: pointer;
         }
     }
 }
@@ -40,7 +44,6 @@
     .home {
 
         .txt-and-img {
-
             .txt {
                 h1 {
                     @include desktopPageHeader;
@@ -63,11 +66,16 @@
 
         .txt-and-img {
             grid-template-rows: 1fr;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: 34% 1fr;
             gap: $xxl-size;
 
             .txt {
                 align-content: center;
+            }
+
+            img {
+                align-self: center;
+                max-height: 500px;
             }
         }
     }
