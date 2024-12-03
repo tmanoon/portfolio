@@ -17,7 +17,7 @@ const Home = () => {
                     <p>From pixel to server, <br />
                         driven by a relentless pursuit of excellence in web development</p>
                 </div>
-                <img onClick={() => changePic()} src={`/src/assets/pics/me/${selectedPic}.jpg`} />
+                <img onClick={() => changePic()} src={`/src/assets/pics/me/${selectedPic}.png`} />
             </div>
         </section>
     )
