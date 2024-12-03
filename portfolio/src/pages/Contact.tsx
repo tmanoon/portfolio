@@ -25,7 +25,7 @@ const Contact = () => {
     ]
 
     return (
-        <section className="contact">
+        <section className="contact grid justify-center">
             <h1>Contact</h1>
             <form className="flex column align-center" data-netlify="true">
                 {
@@ -39,7 +39,7 @@ const Contact = () => {
                     })
                 }
                 <label htmlFor="msg">Your Message</label>
-                <textarea name="msg" rows="6" id="msg" placeholder="Type your message"></textarea>
+                <textarea name="msg" rows={6} id="msg" placeholder="Type your message"></textarea>
                 <button type="button">Submit</button>
             </form>
         </section>
