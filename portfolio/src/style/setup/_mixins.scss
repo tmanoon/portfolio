@@ -34,6 +34,8 @@
     transition: all 200ms;
     transition: transform 1.2s all;
     cursor: pointer;
+    font-size: $m-size;
+    border: 2px solid $secondary-clr;
 
     &:hover {
         background-color: $primary-clr;
