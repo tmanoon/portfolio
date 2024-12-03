@@ -3,7 +3,6 @@
     .txt-and-img {
         height: 70vh;
         grid-template-rows: max-content 1fr;
-        justify-items: center;
         gap: $xxm-size;
 
         .txt {
@@ -18,7 +17,6 @@
 
             h3 {
                 font-size: $l-size;
-                text-align: center;
             }
 
             p {
