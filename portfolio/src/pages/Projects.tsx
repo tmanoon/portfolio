@@ -45,7 +45,7 @@ const Projects = () => {
     ]
 
     return (
-        <section className="projects">
+        <section className="projects grid justify-center">
             <h1>Projects</h1>
             <ul className="container grid">
                 {
