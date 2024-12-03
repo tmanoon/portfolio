@@ -1,8 +1,12 @@
 @mixin pageHeader {
     font-size: $xxl-size;
-    text-align: center;
+    padding-bottom: 8px;
     color: $primary-clr;
     margin-block-end: $l-size;
+    border-bottom: 8px solid transparent;
+    border-image-source: url('/src/assets/pics/bgc/1.png');
+    border-image-slice: 1;
+    border-image-repeat: repeat;
 }
 
 @mixin contentPara {
