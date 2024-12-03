@@ -53,6 +53,5 @@ ul {
 }
 
 button {
-    border: none;
-    cursor: pointer;
+    @include btn;
 }
