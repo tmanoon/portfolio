@@ -21,6 +21,10 @@
             max-width: 100%;
         }
 
+        p {
+            font-size: $xm-size;
+        }
+
         a, p {
             color: $txt-clr;
         }
@@ -45,26 +49,11 @@
 
         ul {
             grid-template-columns: repeat(3, 1fr);
+
+            li {
+                height: 100%;
+                justify-content: space-between;
+            }
         }
     }
 }
-
-
-// <section className="projects">
-// <h1>Projects</h1>
-// <ul className="container grid">
-//     {
-//         projects.map(project => {
-//             return (
-//                 <li className="project">
-//                     <h3>{(project.name).replaceAll('-', ' ')}</h3>
-//                     <img src={`/src/assets/pics/projects/${project.name}.png`} alt={project.name} title={project.name} />
-//                     <p>{project.desc}</p>
-//                     <a href={project.link}>Move to project</a>
-//                 </li>
-//             )
-//         })
-//     }
-// </ul>
-
-// </section>
