@@ -55,7 +55,7 @@ const Projects = () => {
                                 <h3>{(project.name).replaceAll('-', ' ')}</h3>
                                 <img src={`/src/assets/pics/projects/${project.name}.png`} alt={project.name} title={project.name} />
                                 <p>{project.desc}</p>
-                                <a href={project.link}>Move to project</a>
+                                <button><a href={project.link}>Move to project</a></button>
                             </li>
                         )
                     })
