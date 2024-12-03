@@ -33,6 +33,7 @@
     text-align: center;
     transition: all 200ms;
     transition: transform 1.2s all;
+    cursor: pointer;
 
     &:hover {
         background-color: $primary-clr;
