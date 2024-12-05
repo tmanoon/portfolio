@@ -28,6 +28,7 @@ header {
 
         .header-nav-links li {
             transition: transform .28s ease;
+            font-size: rem(19px);
 
             a {
                 transition: color .28s cubic-bezier(.4, 0, .6, 1);
