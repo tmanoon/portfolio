@@ -11,7 +11,7 @@ const Header = () => {
         <header>
             <div className="logo-and-nav flex">
                 <div className="logo" onClick={() => navigate('/')}>
-                    <h1>Shoval.S<span>;</span></h1>
+                    <img src={`src/assets/pics/logo.png`} alt='logo' title='logo' />
                 </div>
                 <nav className="header-nav-links">
                     <ul className="links flex">
