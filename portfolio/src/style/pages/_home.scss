@@ -1,4 +1,5 @@
 .home {
+    padding-block-start: rem(110px);
 
     .txt-and-img {
         height: 70vh;
@@ -33,6 +34,11 @@
             border-radius: 50%;
             border: 8px solid $primary-clr;
             cursor: pointer;
+            transition: border .3s ease-in-out;
+        }
+
+        img:hover, img:focus {
+            border: 8px solid $secondary-clr2;
         }
     }
 }
@@ -60,6 +66,7 @@
 
 @media (min-width: 1080px) {
     .home {
+        padding-block-start: rem(100px);
 
         .txt-and-img {
             grid-template-rows: 1fr;
