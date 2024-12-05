@@ -26,7 +26,7 @@ const About = () => {
                         <br />
                         Fluent in Hebrew and English, and proficient in Russian and Spanish, I collaborate effectively with diverse teams to ensure smooth project delivery.
                         <br />
-                        Whenever I'm not working on new projects, I take care and play with my two little parrots ♡
+                        Whenever I'm not working on new projects, I take care and play with my two little parrots 💜
                         <br/>
                         Let’s connect to develop innovative solutions that drive success!</p>
                 </div>
