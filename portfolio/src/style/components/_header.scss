@@ -26,14 +26,22 @@ header {
             color: $primary-clr2;
         }
 
-        .header-nav-links li a:hover,
-        .header-nav-links li a:focus {
-            font-weight: 800;
+        .header-nav-links li {
+            transition: transform .28s ease;
+
+            a {
+                transition: color .28s cubic-bezier(.4, 0, .6, 1);
+            }
         }
 
-        .logo h1,
-        .header-nav-links li a {
-            transition: color .25s cubic-bezier(.4, 0, .6, 1);
+        .header-nav-links li a:hover,
+        .header-nav-links li a:focus {
+            color: $secondary-clr2;
+        }
+
+        .header-nav-links li:hover,
+        .header-nav-links li:focus {
+            transform: scale(1.2);
         }
 
         .header-nav-links {
