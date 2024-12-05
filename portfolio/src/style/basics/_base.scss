@@ -21,7 +21,7 @@ h1 {
 
 
 main section {
-    padding-block: rem(95px);
+    padding-block: rem(100px);
     margin-inline: $xl-size;
     height: inherit;
 }
@@ -29,10 +29,7 @@ main section {
 @media (min-width: 768px) {
     main section {
         padding-inline: $xm-size;
-    }
-
-    h1 {
-        @include desktopPageHeader;
+        padding-block: rem(100px);
     }
 }
 
