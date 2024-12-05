@@ -1,6 +1,4 @@
 header {
-    height: rem(60px);
-    background-color: $hf-bgc-clr-mobile;
     position: fixed;
     width: 100%;
     z-index: 15;
@@ -15,13 +13,15 @@ header {
             color: $hf-txt-clr;
         }
 
-        .logo h1 {
-            font-size: 2em;
+        .logo img {
             margin-block-end: 0;
-            border: none;
+            object-fit: contain;
+            display: block;
+            height: 110px;
+            cursor: pointer;
         }
 
-        .logo h1:hover {
+        .logo img:hover {
             color: $primary-clr2;
         }
 
@@ -36,19 +36,6 @@ header {
             transition: color .25s cubic-bezier(.4, 0, .6, 1);
         }
 
-        .logo {
-            cursor: pointer;
-
-            h1 {
-                font-family: SFPro-Ultralight, Roboto-Thin;
-                letter-spacing: $xxs-size;
-
-                span {
-                    font-family: SFPro-Light, Tahoma;
-                }
-            }
-        }
-
         .header-nav-links {
             display: none;
 
@@ -60,7 +47,7 @@ header {
     }
 
     .menu-links-nav {
-        background-color: $hf-bgc-clr-mobile;
+        background-color: $secondary-clr;
         height: fit-content;
         padding-block: $xm-size;
         position: fixed;
