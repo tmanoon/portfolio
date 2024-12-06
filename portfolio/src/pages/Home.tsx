@@ -4,7 +4,7 @@ const Home = () => {
     const [selectedPic, setSelectedPic] = useState(1)
 
     function changePic() {
-        if(selectedPic === 5) setSelectedPic(1)
+        if (selectedPic === 5) setSelectedPic(1)
         else setSelectedPic(selectedPic + 1)
     }
 
@@ -17,7 +17,10 @@ const Home = () => {
                     <p>From pixel to server, <br />
                         driven by a relentless pursuit of excellence in web development</p>
                 </div>
-                <img onClick={() => changePic()} src={`/src/assets/pics/me/${selectedPic}.png`} />
+                <div className="pics">
+                    <span>Tap here</span>
+                    <img onClick={() => changePic()} src={`/src/assets/pics/me/${selectedPic}.png`} />
+                </div>
             </div>
         </section>
     )
