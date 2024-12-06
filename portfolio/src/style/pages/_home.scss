@@ -70,8 +70,8 @@
 
         .txt-and-img {
             grid-template-rows: 1fr;
-            grid-template-columns: 34% 1fr;
-            gap: $xxl-size;
+            grid-template-columns: 45% 1fr;
+            gap: $xl-size;
 
             .txt {
                 align-content: center;
@@ -80,6 +80,7 @@
             img {
                 align-self: center;
                 max-height: 500px;
+                width: 450px;
             }
         }
     }
