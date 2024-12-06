@@ -18,7 +18,7 @@ const Home = () => {
                         driven by a relentless pursuit of excellence in web development</p>
                 </div>
                 <div className="pics">
-                    <span>Tap here</span>
+                    <span>🪺</span>
                     <img onClick={() => changePic()} src={`/src/assets/pics/me/${selectedPic}.png`} />
                 </div>
             </div>
