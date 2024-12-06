@@ -1,4 +1,7 @@
+import { useRef } from "react"
+
 const Contact = () => {
+    const modal = useRef<HTMLDivElement | null>(null);
 
     type Field = {
         name: string,
@@ -24,10 +27,15 @@ const Contact = () => {
         },
     ]
 
+    const handleSubmission = (e: React.FormEvent) => {
+        e.preventDefault()
+
+    }
+
     return (
         <section className="contact grid justify-center">
             <h1>Contact</h1>
-            <form className="flex column align-center" data-netlify="true">
+            <form className="flex column align-center" data-netlify="true" method="POST" onSubmit={handleSubmission}>
                 {
                     fields.map(field => {
                         return (
@@ -42,6 +50,7 @@ const Contact = () => {
                 <textarea name="msg" rows={6} id="msg" placeholder="Type your message"></textarea>
                 <button type="button">Submit</button>
             </form>
+            <div className="submission-indication" ref={modal}></div>
         </section>
     )
 }
