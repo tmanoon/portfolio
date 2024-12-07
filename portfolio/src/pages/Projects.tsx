@@ -51,7 +51,7 @@ const Projects = () => {
                 {
                     projects.map(project => {
                         return (
-                            <li className="project flex column align-center">
+                            <li className="project flex column align-center space-between">
                                 <h3>{(project.name).replaceAll('-', ' ')}</h3>
                                 <img src={`/src/assets/pics/projects/${project.name}.png`} alt={project.name} title={project.name} />
                                 <p>{project.desc}</p>
