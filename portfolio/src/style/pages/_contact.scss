@@ -2,6 +2,7 @@
 
     form {
         gap: $xs-size;
+        margin-block-start: 1rem;
 
         label {
             font-weight: bold;
@@ -11,8 +12,7 @@
 
         input,
         textarea {
-            padding-block: $m-size;
-            padding-inline: $s-size;
+            padding: $s-size;
             width: 70vw;
             max-width: rem(594px);
             border: 0.5px solid $primary-clr2;
