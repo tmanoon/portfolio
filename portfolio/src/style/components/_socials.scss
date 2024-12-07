@@ -38,11 +38,11 @@
             span {
                 font-size: $l-size;
 
-                color: $secondary-clr;
+                color: $primary-clr;
                 cursor: pointer;
 
                 &:hover {
-                    color: $primary-clr;
+                    color: $secondary-clr2;
                 }
             }
         }
