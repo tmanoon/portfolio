@@ -37,7 +37,7 @@ header {
 
         .header-nav-links li a:hover,
         .header-nav-links li a:focus {
-            color: $secondary-clr2;
+            color: $secondary-clr;
         }
 
         .header-nav-links li:hover,
@@ -97,7 +97,7 @@ header {
                 display: block;
 
                 .links li {
-                    color: $secondary-clr;
+                    color: $primary-clr;
                 }
             }
         }
