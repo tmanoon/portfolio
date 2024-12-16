@@ -96,8 +96,13 @@ header {
             .header-nav-links {
                 display: block;
 
+                .links {
+                    gap: $l-size;
+                }
+
                 .links li {
                     color: $primary-clr;
+                    font-size: $xxm-size;
                 }
             }
         }
