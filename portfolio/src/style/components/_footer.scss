@@ -5,11 +5,7 @@ footer {
     width: 100%;
     bottom: 0;
     z-index: 5;
-    color: $hf-txt-clr;
-
-    span {
-        font-family: SFPro-Reg, Roboto-Thin, Tahoma;
-    }
+    color: $primary-clr;
 }
 
 @media (min-width: 768px) {
