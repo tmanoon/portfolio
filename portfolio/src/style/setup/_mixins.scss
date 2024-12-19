@@ -9,6 +9,13 @@
     border-image-repeat: repeat;
 }
 
+@mixin border {
+    border: 8px solid transparent;
+    border-image-source: url('/src/assets/pics/bgc/1.png');
+    border-image-slice: 1;
+    border-image-repeat: repeat;
+}
+
 @mixin contentPara {
     text-align: center;
     font-size: $xxm-size;
