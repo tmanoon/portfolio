@@ -8,14 +8,14 @@ const Projects = () => {
 
     const projects: Project[] = [
         {
-            name: 'staybnb',
-            desc: 'Staybnb is a fully functional Airbnb clone built using React, showcasing expertise in full-stack development. It features a responsive design for seamless experiences across devices, real-time chat powered by WebSockets, and secure user authentication and authorization. The project also highlights collaborative development through Git and GitHub.',
-            link: 'https://staybnb-1.onrender.com/#/?txt=&entryDate=&exitDate=&label=&placeType=any&pagination=30&adults=0&children=0&infants=0&pets=0&min=0&max=2000&bedrooms=any&beds=any&bathrooms=any&instant=false&selfCheckIn=false&allowsPets=false'
-        },
-        {
             name: 'manook',
             desc: 'Manook is a streamlined E-Commerce platform built with Angular, designed to showcase proficiency in frontend development and data management. The site features a dynamic product catalog, a shopping cart powered by local storage for data persistence, and real-time updates to the cart and inventory for an intuitive shopping experience.',
             link: 'https://tmanoon.github.io/manook/'
+        },
+        {
+            name: 'staybnb',
+            desc: 'Staybnb is a fully functional Airbnb clone built using React, showcasing expertise in full-stack development. It features a responsive design for seamless experiences across devices, real-time chat powered by WebSockets, and secure user authentication and authorization. The project also highlights collaborative development through Git and GitHub.',
+            link: 'https://staybnb-1.onrender.com/#/?txt=&entryDate=&exitDate=&label=&placeType=any&pagination=30&adults=0&children=0&infants=0&pets=0&min=0&max=2000&bedrooms=any&beds=any&bathrooms=any&instant=false&selfCheckIn=false&allowsPets=false'
         },
         {
             name: 'form-generator',
@@ -55,7 +55,7 @@ const Projects = () => {
                                 <h3>{(project.name).replaceAll('-', ' ')}</h3>
                                 <img src={`/src/assets/pics/projects/${project.name}.png`} alt={project.name} title={project.name} />
                                 <p>{project.desc}</p>
-                                <button><a href={project.link}>Enter</a></button>
+                                <button><a href={project.link} target="blank">Enter</a></button>
                             </li>
                         )
                     })
