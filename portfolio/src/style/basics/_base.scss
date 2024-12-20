@@ -10,8 +10,17 @@ body {
     height: 100vh;
     background-color: $bgc-clr;
 
+    .overlay {
+        position: absolute;
+        background-repeat: repeat;
+        opacity: 0.3;
+        top: 0;
+    }
+
     #root {
         height: inherit;
+        position: relative;
+        z-index: 100;
     }
 }
 
