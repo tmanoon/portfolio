@@ -2,23 +2,28 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family:  Livvic, Roboto-Thin, Calibri;
+    font-family: Livvic, Roboto-Thin, Calibri;
 }
 
 body {
     margin: 0;
-    height: 100vh;
+    min-height: 100%;
     background-color: $bgc-clr;
 
     .overlay {
-        position: absolute;
-        background-repeat: repeat;
-        opacity: 0.3;
+        position: fixed;
         top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-image: url('./src/assets/pics/pattern.avif');
+        background-repeat: repeat;
+        opacity: 0.1;
+        pointer-events: none;
     }
 
     #root {
-        height: inherit;
+        height: 100%;
         position: relative;
         z-index: 100;
     }
