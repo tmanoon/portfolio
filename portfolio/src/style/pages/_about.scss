@@ -16,7 +16,7 @@
 
         .tech-icons {
             gap: $xxm-size;
-            grid-template-columns: repeat(3, minmax(65px, 1fr));
+            grid-template-columns: repeat(3, minmax(65px, 150px));
             width: 100%;
 
             li img {
@@ -51,6 +51,7 @@
 
             .tech-icons {
                 grid-template-columns: repeat(4, minmax(65px, 150px));
+                gap: $xl-size;
             }
         }
     }
