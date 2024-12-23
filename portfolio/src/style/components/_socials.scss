@@ -22,7 +22,7 @@
     .socials {
         display: flex;
         gap: $xm-size;
-        position: absolute;
+        position: fixed;
         z-index: 10;
         right: $s-size;
         top: 50%;
