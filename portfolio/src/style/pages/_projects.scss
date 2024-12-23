@@ -35,3 +35,23 @@
         }
     }
 }
+
+@media (min-width: 768px) {
+    .projects {
+
+        ul {
+
+            li {
+
+                h3 {
+                    font-size: $xl-size;
+                }
+
+                p {
+                    font-size: $xxm-size;
+                }
+            }
+        }
+
+    }
+}
