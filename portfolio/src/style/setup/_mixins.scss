@@ -1,6 +1,6 @@
 @mixin pageHeader {
     font-size: $xxl-size;
-    padding-bottom: 8px;
+    padding-block: 1rem 0.5rem;
     color: $primary-clr;
     margin-block-end: $l-size;
     border-bottom: 8px solid transparent;
