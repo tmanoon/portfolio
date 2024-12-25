@@ -1,5 +1,6 @@
 const Projects = () => {
 
+
     type Project = {
         name: string,
         desc: string,
@@ -53,7 +54,7 @@ const Projects = () => {
                         return (
                             <li className="project grid">
                                 <h3>{(project.name).replaceAll('-', ' ')}</h3>
-                                <img src={`/src/assets/pics/projects/${project.name}.png`} alt={project.name} title={project.name} />
+                                <img src={`/src/assets/pics/projects/${project.name}.png`} alt={project.name} title={project.name} onClick={() => window.open(project.link, "_blank")}/>
                                 <p>{project.desc}</p>
                                 <button><a href={project.link} target="blank">Enter</a></button>
                             </li>
