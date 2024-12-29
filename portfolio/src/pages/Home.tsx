@@ -1,9 +1,10 @@
 import { useState } from "react"
 
 const Home = () => {
+
     const [selectedPic, setSelectedPic] = useState(1)
 
-    function changePic() {
+    const changePic = () => {
         if (selectedPic === 5) setSelectedPic(1)
         else setSelectedPic(selectedPic + 1)
     }
