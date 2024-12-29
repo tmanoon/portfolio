@@ -1,11 +1,6 @@
+import { Project } from "../types"
+
 const Projects = () => {
-
-
-    type Project = {
-        name: string,
-        desc: string,
-        link: string
-    }
 
     const projects: Project[] = [
         {
