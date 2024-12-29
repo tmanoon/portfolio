@@ -1,13 +1,8 @@
 import { useRef } from "react"
+import { Field } from "../types"
 
 const Contact = () => {
-    const modal = useRef<HTMLDivElement | null>(null);
-
-    type Field = {
-        name: string,
-        label: string
-        placeholder: string
-    }
+    const modal = useRef<HTMLDivElement | null>(null)
 
     const fields: Field[] = [
         {
@@ -29,7 +24,6 @@ const Contact = () => {
 
     const handleSubmission = (e: React.FormEvent) => {
         e.preventDefault()
-
     }
 
     return (
