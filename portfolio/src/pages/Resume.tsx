@@ -1,12 +1,15 @@
 import { useState } from "react"
 
 const Resume = () => {
+
     const [cvLang, changeCvLang] = useState({ lang: 'english', btnTxt: 'Download CV' })
     const [filePath, setFilePath] = useState('/src/assets/shova-sabag-cv.pdf')
+
     const changeLang = (lang: string) => {
         if (lang === 'heb') changeCvLang(() => ({ lang: 'hebrew', btnTxt: 'הורד קורות חיים' }))
         else changeCvLang(() => ({ lang: 'english', btnTxt: 'Download CV' }))
     }
+    
     const downloadCV = () => {
         if (cvLang.lang === 'hebrew') setFilePath('/src/assets/cv-files/shoval-sabag-cv-heb.pdf')
         else if (filePath !== '/src/assets/shoval-sabag-cv.pdf') setFilePath('/src/assets/cv-files/shoval-sabag-cv.pdf')
