@@ -1,8 +1,6 @@
-const About = () => {
+import { Stack } from "../types"
 
-    type Stack = {
-        [key: string]: string[];
-    }
+const About = () => {
 
     const stack: Stack = {
         lngs: ['html', 'css', 'javascript'],
