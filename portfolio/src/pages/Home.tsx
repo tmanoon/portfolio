@@ -5,7 +5,7 @@ const Home = () => {
     const [selectedPic, setSelectedPic] = useState(1)
 
     const changePic = () => {
-        if (selectedPic === 5) setSelectedPic(1)
+        if (selectedPic === 7) setSelectedPic(1)
         else setSelectedPic(selectedPic + 1)
     }
 
