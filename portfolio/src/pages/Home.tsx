@@ -16,7 +16,7 @@ const Home = () => {
                     <h1>Shoval Sabag</h1>
                     <h3>Full Stack Developer</h3>
                     <p>From pixel to server, <br />
-                        driven by a relentless pursuit of excellence in web development</p>
+                        driven by a relentless pursuit of excellence in Web Development</p>
                 </div>
                 <div className="pics">
                     <span>🪺</span>
