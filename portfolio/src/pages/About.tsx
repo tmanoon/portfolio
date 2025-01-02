@@ -1,14 +1,6 @@
-import { Stack } from "../types"
+import { stack } from "../data"
 
 const About = () => {
-
-    const stack: Stack = {
-        lngs: ['html', 'css', 'javascript'],
-        libs: ['scss', 'typescript', 'react', 'redux', 'vue', 'angular',
-            'rxjs', 'nodejs', 'express', 'babel', 'socketIO'],
-        databases: ['mongo', 'sql'],
-        techsAndTools: ['git', 'vscode', 'jira', 'trello', 'monday', 'slack']
-    }
 
     return (
         <section className="about">
