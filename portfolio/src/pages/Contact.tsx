@@ -1,26 +1,8 @@
 import { useRef } from "react"
-import { Field } from "../types"
+import { fields } from "../data"
 
 const Contact = () => {
     const modal = useRef<HTMLDivElement | null>(null)
-
-    const fields: Field[] = [
-        {
-            name: 'fullname',
-            label: 'Full Name',
-            placeholder: 'Full Name'
-        },
-        {
-            name: 'email',
-            label: 'Email',
-            placeholder: 'Email'
-        },
-        {
-            name: 'phone',
-            label: 'Phone (Optional)',
-            placeholder: 'Phone'
-        },
-    ]
 
     const handleSubmission = (e: React.FormEvent) => {
         e.preventDefault()
