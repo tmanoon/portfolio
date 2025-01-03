@@ -15,10 +15,10 @@ const Contact = () => {
                 {
                     fields.map(field => {
                         return (
-                            <>
+                            <div key={field.name} className="flex column align-center">
                                 <label htmlFor={field.name}>{field.label}</label>
                                 <input id={field.name} placeholder={field.placeholder} />
-                            </>
+                            </div>
                         )
                     })
                 }
