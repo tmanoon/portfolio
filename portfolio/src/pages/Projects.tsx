@@ -9,7 +9,7 @@ const Projects = () => {
                 {
                     projects.map(project => {
                         return (
-                            <li className="project grid">
+                            <li className="project grid" key={project.name}>
                                 <h3>{(project.name).replaceAll('-', ' ')}</h3>
                                 <img src={`/src/assets/pics/projects/${project.name}.png`} alt={project.name} title={project.name} onClick={() => window.open(project.link, "_blank")} />
                                 <p>{project.desc}</p>
