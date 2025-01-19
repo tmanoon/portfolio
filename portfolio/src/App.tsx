@@ -12,20 +12,18 @@ import './style/main.css'
 function App() {
 
   return (
-    <Router>
+    <>
       <Header />
       <main>
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/resume' element={<Resume />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/projects' element={<Projects />} />
-          <Route path='/contact' element={<Contact />} />
-        </Routes>
-      </main>
+        <Home />
+        <About />
+        <Resume />
+        <Projects />
+        <Contact />
+      </main >
       <Socials />
       <Footer />
-    </Router>
+    </>
   )
 }
 
