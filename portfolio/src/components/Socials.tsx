@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom"
-
 const Socials = () => {
 
     type Social = {
@@ -14,7 +12,7 @@ return (
         <div className="socials flex column">
             {socials.map(social => {
                 return (
-                    <Link to={social.url} key={social.socialName} target="_blanc"><span className={social.socialName}></span></Link>
+                    <a href={social.url} key={social.socialName} target="_blanc"><span className={social.socialName}></span></a>
                 )
             })}
         </div>
