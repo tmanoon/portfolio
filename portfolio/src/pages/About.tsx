@@ -3,7 +3,7 @@ import { stack } from "../data"
 const About = () => {
 
     return (
-        <section className="about">
+        <section className="about" id="about">
             <div className="txt-and-stack grid">
                 <div className="txt flex column align-center">
                     <h1>About</h1>

@@ -9,7 +9,7 @@ const Contact = () => {
     }
 
     return (
-        <section className="contact grid justify-center">
+        <section className="contact grid justify-center" id="contact">
             <h1>Contact</h1>
             <form className="flex column align-center" data-netlify="true" method="POST" onSubmit={handleSubmission}>
                 {

@@ -3,7 +3,7 @@ import { projects } from "../data"
 const Projects = () => {
 
     return (
-        <section className="projects grid justify-center">
+        <section className="projects grid justify-center" id="projects">
             <h1>Projects</h1>
             <ul className="container grid">
                 {

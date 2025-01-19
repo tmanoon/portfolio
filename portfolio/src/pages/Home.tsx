@@ -10,7 +10,7 @@ const Home = () => {
     }
 
     return (
-        <section className="home">
+        <section className="home" id="home">
             <div className="txt-and-img grid justify-center">
                 <div className="txt grid justify-center">
                     <h1>Shoval Sabag</h1>
